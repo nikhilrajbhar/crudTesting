@@ -13,23 +13,23 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Green 
+          Welcome to Green Fake API
         </h1>
 
         <p className={styles.description}>
-          Get Employee: /api/employee{' '}
+          Get Employee : /api/employee{' '}
         </p>
 
         <p className={styles.description}>
-          Post Employee: /api/employee{' '}
+          Post Employee : /api/employee{' '}
         </p>
 
         <p className={styles.description}>
-          Put Employee: /api/updateEmployee{' '}
+          Put Employee : /api/updateEmployee/id{' '}
         </p>
 
         <p className={styles.description}>
-          Delete Employee: /api/deleteEmployee{' '}
+          Delete Employee : /api/deleteEmployee/id{' '}
         </p>
       </main>
     </div>
