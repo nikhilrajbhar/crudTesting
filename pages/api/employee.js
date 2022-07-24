@@ -19,7 +19,7 @@ const getEmployees = async (req, res) => {
     })
 
   } catch (error) {
-    console.log('error', error)
+    console.log('errorr', error)
   }
 }
 
